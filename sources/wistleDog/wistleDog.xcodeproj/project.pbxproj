@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* wistleDogAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* wistleDogAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		888954DD130B1D9F004CF511 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 888954DC130B1D9F004CF511 /* icon.png */; };
+		888D1459130B1F5B00E6EDAA /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 888D1458130B1F5B00E6EDAA /* bg.png */; };
+		888D145D130B1F7700E6EDAA /* MSWhistleMain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 888D145B130B1F7700E6EDAA /* MSWhistleMain.mm */; };
+		888D145E130B1F7700E6EDAA /* MSWhistleMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888D145C130B1F7700E6EDAA /* MSWhistleMain.xib */; };
+		888D149E130B254E00E6EDAA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 888D149D130B254E00E6EDAA /* libsqlite3.dylib */; };
+		888D14A0130B255500E6EDAA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888D149F130B255500E6EDAA /* CFNetwork.framework */; };
+		888D14BB130B277C00E6EDAA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888D14BA130B277C00E6EDAA /* CoreMedia.framework */; };
+		888D14CF130B27E600E6EDAA /* v04.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14C5130B27E600E6EDAA /* v04.m4v */; };
+		888D14D0130B27E600E6EDAA /* v07.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14C6130B27E600E6EDAA /* v07.m4v */; };
+		888D14D1130B27E600E6EDAA /* v09.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14C7130B27E600E6EDAA /* v09.m4v */; };
+		888D14D2130B27E600E6EDAA /* v10.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14C8130B27E600E6EDAA /* v10.m4v */; };
+		888D14D3130B27E600E6EDAA /* v12.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14C9130B27E600E6EDAA /* v12.m4v */; };
+		888D14D4130B27E600E6EDAA /* v13.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14CA130B27E600E6EDAA /* v13.m4v */; };
+		888D14D5130B27E600E6EDAA /* v15.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14CB130B27E600E6EDAA /* v15.m4v */; };
+		888D14D6130B27E600E6EDAA /* v21.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14CC130B27E600E6EDAA /* v21.m4v */; };
+		888D14D7130B27E600E6EDAA /* v23.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14CD130B27E600E6EDAA /* v23.m4v */; };
+		888D14D8130B27E600E6EDAA /* v25.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14CE130B27E600E6EDAA /* v25.m4v */; };
+		888D1503130B290800E6EDAA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888D1502130B290800E6EDAA /* MediaPlayer.framework */; };
+		88E007C4130C57BB00A48611 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 888954DC130B1D9F004CF511 /* icon.png */; };
+		88E007C5130C57BB00A48611 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 888D1458130B1F5B00E6EDAA /* bg.png */; };
+		88E007C7130C57BB00A48611 /* v04.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14C5130B27E600E6EDAA /* v04.m4v */; };
+		88E007C8130C57BB00A48611 /* v07.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14C6130B27E600E6EDAA /* v07.m4v */; };
+		88E007C9130C57BB00A48611 /* v09.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14C7130B27E600E6EDAA /* v09.m4v */; };
+		88E007CA130C57BB00A48611 /* v10.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14C8130B27E600E6EDAA /* v10.m4v */; };
+		88E007CB130C57BB00A48611 /* v12.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14C9130B27E600E6EDAA /* v12.m4v */; };
+		88E007CC130C57BB00A48611 /* v13.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14CA130B27E600E6EDAA /* v13.m4v */; };
+		88E007CD130C57BB00A48611 /* v15.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14CB130B27E600E6EDAA /* v15.m4v */; };
+		88E007CE130C57BB00A48611 /* v21.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14CC130B27E600E6EDAA /* v21.m4v */; };
+		88E007CF130C57BB00A48611 /* v23.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14CD130B27E600E6EDAA /* v23.m4v */; };
+		88E007D0130C57BB00A48611 /* v25.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 888D14CE130B27E600E6EDAA /* v25.m4v */; };
+		88E007D2130C57BB00A48611 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		88E007D3130C57BB00A48611 /* wistleDogAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* wistleDogAppDelegate.m */; };
+		88E007D4130C57BB00A48611 /* MSWhistleMain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 888D145B130B1F7700E6EDAA /* MSWhistleMain.mm */; };
+		88E007D6130C57BB00A48611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		88E007D7130C57BB00A48611 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		88E007D8130C57BB00A48611 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		88E007DA130C57BB00A48611 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 888D149D130B254E00E6EDAA /* libsqlite3.dylib */; };
+		88E007DB130C57BB00A48611 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888D149F130B255500E6EDAA /* CFNetwork.framework */; };
+		88E007DC130C57BB00A48611 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888D14BA130B277C00E6EDAA /* CoreMedia.framework */; };
+		88E007DD130C57BB00A48611 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888D1502130B290800E6EDAA /* MediaPlayer.framework */; };
+		88E007E7130C57BC00A48611 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E007E5130C57BC00A48611 /* MainWindow.xib */; };
+		88E007E8130C57BC00A48611 /* MSWhistleMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E007E6130C57BC00A48611 /* MSWhistleMain.xib */; };
+		88E0081F130C5A1A00A48611 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E0081E130C5A1A00A48611 /* libGoogleAnalytics.a */; };
+		88E00820130C5A1A00A48611 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E0081E130C5A1A00A48611 /* libGoogleAnalytics.a */; };
+		88E008A3130C607500A48611 /* aurio_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E0088D130C607500A48611 /* aurio_helper.cpp */; };
+		88E008A4130C607500A48611 /* rad2fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 88E00891130C607500A48611 /* rad2fft.c */; };
+		88E008A5130C607500A48611 /* SpectrumAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E00893130C607500A48611 /* SpectrumAnalysis.cpp */; };
+		88E008A6130C607500A48611 /* FFTBufferManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E00895130C607500A48611 /* FFTBufferManager.cpp */; };
+		88E008A7130C607500A48611 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E00898130C607500A48611 /* CADebugMacros.cpp */; };
+		88E008A8130C607500A48611 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E0089B130C607500A48611 /* CAStreamBasicDescription.cpp */; };
+		88E008A9130C607500A48611 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E0089D130C607500A48611 /* CAXException.cpp */; };
+		88E008AA130C607500A48611 /* MSSoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E0089F130C607500A48611 /* MSSoundManager.cpp */; };
+		88E008AB130C607500A48611 /* Recorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 88E008A1130C607500A48611 /* Recorder.mm */; };
+		88E008AC130C607500A48611 /* aurio_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E0088D130C607500A48611 /* aurio_helper.cpp */; };
+		88E008AD130C607500A48611 /* rad2fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 88E00891130C607500A48611 /* rad2fft.c */; };
+		88E008AE130C607500A48611 /* SpectrumAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E00893130C607500A48611 /* SpectrumAnalysis.cpp */; };
+		88E008AF130C607500A48611 /* FFTBufferManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E00895130C607500A48611 /* FFTBufferManager.cpp */; };
+		88E008B0130C607500A48611 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E00898130C607500A48611 /* CADebugMacros.cpp */; };
+		88E008B1130C607500A48611 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E0089B130C607500A48611 /* CAStreamBasicDescription.cpp */; };
+		88E008B2130C607500A48611 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E0089D130C607500A48611 /* CAXException.cpp */; };
+		88E008B3130C607500A48611 /* MSSoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E0089F130C607500A48611 /* MSSoundManager.cpp */; };
+		88E008B4130C607500A48611 /* Recorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 88E008A1130C607500A48611 /* Recorder.mm */; };
+		88E008C4130C608900A48611 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E008C3130C608900A48611 /* AudioToolbox.framework */; };
+		88F00E42130CA5C2007D2BBA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F00E41130CA5C2007D2BBA /* AVFoundation.framework */; };
+		88F00EB3130CA910007D2BBA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E008C3130C608900A48611 /* AudioToolbox.framework */; };
+		88F00EB6130CA91A007D2BBA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F00E41130CA5C2007D2BBA /* AVFoundation.framework */; };
+		88F00FBE130D8CB8007D2BBA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F00FBD130D8CB8007D2BBA /* Default.png */; };
+		88F00FBF130D8CB8007D2BBA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F00FBD130D8CB8007D2BBA /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* wistleDogAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wistleDogAppDelegate.h; path = Classes/wistleDogAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* wistleDogAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = wistleDogAppDelegate.m; path = Classes/wistleDogAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* wistleDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wistleDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* wistleDog_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wistleDog_Prefix.pch; sourceTree = "<group>"; };
+		888954DC130B1D9F004CF511 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		888D1458130B1F5B00E6EDAA /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		888D145A130B1F7700E6EDAA /* MSWhistleMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWhistleMain.h; sourceTree = "<group>"; };
+		888D145B130B1F7700E6EDAA /* MSWhistleMain.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MSWhistleMain.mm; sourceTree = "<group>"; };
+		888D145C130B1F7700E6EDAA /* MSWhistleMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MSWhistleMain.xib; sourceTree = "<group>"; };
+		888D148A130B24B500E6EDAA /* GANTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GANTracker.h; sourceTree = "<group>"; };
+		888D149D130B254E00E6EDAA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		888D149F130B255500E6EDAA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		888D14BA130B277C00E6EDAA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		888D14C5130B27E600E6EDAA /* v04.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = v04.m4v; sourceTree = "<group>"; };
+		888D14C6130B27E600E6EDAA /* v07.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = v07.m4v; sourceTree = "<group>"; };
+		888D14C7130B27E600E6EDAA /* v09.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = v09.m4v; sourceTree = "<group>"; };
+		888D14C8130B27E600E6EDAA /* v10.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = v10.m4v; sourceTree = "<group>"; };
+		888D14C9130B27E600E6EDAA /* v12.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = v12.m4v; sourceTree = "<group>"; };
+		888D14CA130B27E600E6EDAA /* v13.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = v13.m4v; sourceTree = "<group>"; };
+		888D14CB130B27E600E6EDAA /* v15.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = v15.m4v; sourceTree = "<group>"; };
+		888D14CC130B27E600E6EDAA /* v21.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = v21.m4v; sourceTree = "<group>"; };
+		888D14CD130B27E600E6EDAA /* v23.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = v23.m4v; sourceTree = "<group>"; };
+		888D14CE130B27E600E6EDAA /* v25.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = v25.m4v; sourceTree = "<group>"; };
+		888D1502130B290800E6EDAA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		88E007E2130C57BB00A48611 /* wistleDog-Upgraded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wistleDog-Upgraded.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E007E5130C57BC00A48611 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = "Resources-iPad/MainWindow.xib"; sourceTree = "<group>"; };
+		88E007E6130C57BC00A48611 /* MSWhistleMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MSWhistleMain.xib; path = "Resources-iPad/MSWhistleMain.xib"; sourceTree = "<group>"; };
+		88E0081E130C5A1A00A48611 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
+		88E0088D130C607500A48611 /* aurio_helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aurio_helper.cpp; sourceTree = "<group>"; };
+		88E0088E130C607500A48611 /* aurio_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aurio_helper.h; sourceTree = "<group>"; };
+		88E00891130C607500A48611 /* rad2fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rad2fft.c; sourceTree = "<group>"; };
+		88E00892130C607500A48611 /* rad2fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rad2fft.h; sourceTree = "<group>"; };
+		88E00893130C607500A48611 /* SpectrumAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpectrumAnalysis.cpp; sourceTree = "<group>"; };
+		88E00894130C607500A48611 /* SpectrumAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpectrumAnalysis.h; sourceTree = "<group>"; };
+		88E00895130C607500A48611 /* FFTBufferManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FFTBufferManager.cpp; sourceTree = "<group>"; };
+		88E00896130C607500A48611 /* FFTBufferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTBufferManager.h; sourceTree = "<group>"; };
+		88E00898130C607500A48611 /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
+		88E00899130C607500A48611 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		88E0089A130C607500A48611 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		88E0089B130C607500A48611 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		88E0089C130C607500A48611 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		88E0089D130C607500A48611 /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		88E0089E130C607500A48611 /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		88E0089F130C607500A48611 /* MSSoundManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MSSoundManager.cpp; sourceTree = "<group>"; };
+		88E008A0130C607500A48611 /* MSSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSoundManager.h; sourceTree = "<group>"; };
+		88E008A1130C607500A48611 /* Recorder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Recorder.mm; sourceTree = "<group>"; };
+		88E008A2130C607500A48611 /* Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recorder.h; sourceTree = "<group>"; };
+		88E008C3130C608900A48611 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		88F00E41130CA5C2007D2BBA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		88F00FBD130D8CB8007D2BBA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* wistleDog-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wistleDog-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				888D149E130B254E00E6EDAA /* libsqlite3.dylib in Frameworks */,
+				888D14A0130B255500E6EDAA /* CFNetwork.framework in Frameworks */,
+				888D14BB130B277C00E6EDAA /* CoreMedia.framework in Frameworks */,
+				888D1503130B290800E6EDAA /* MediaPlayer.framework in Frameworks */,
+				88E0081F130C5A1A00A48611 /* libGoogleAnalytics.a in Frameworks */,
+				88E008C4130C608900A48611 /* AudioToolbox.framework in Frameworks */,
+				88F00E42130CA5C2007D2BBA /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E007D5130C57BB00A48611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E007D6130C57BB00A48611 /* Foundation.framework in Frameworks */,
+				88E007D7130C57BB00A48611 /* UIKit.framework in Frameworks */,
+				88E007D8130C57BB00A48611 /* CoreGraphics.framework in Frameworks */,
+				88E007DA130C57BB00A48611 /* libsqlite3.dylib in Frameworks */,
+				88E007DB130C57BB00A48611 /* CFNetwork.framework in Frameworks */,
+				88E007DC130C57BB00A48611 /* CoreMedia.framework in Frameworks */,
+				88E007DD130C57BB00A48611 /* MediaPlayer.framework in Frameworks */,
+				88E00820130C5A1A00A48611 /* libGoogleAnalytics.a in Frameworks */,
+				88F00EB3130CA910007D2BBA /* AudioToolbox.framework in Frameworks */,
+				88F00EB6130CA91A007D2BBA /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				88E0088C130C607500A48611 /* soundManager */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* wistleDog.app */,
+				88E007E2130C57BB00A48611 /* wistleDog-Upgraded.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				888D148D130B24C600E6EDAA /* main */,
+				888D1489130B24B500E6EDAA /* AnalylicsLibrary */,
+				888D150F130B296200E6EDAA /* Controllers */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				88E007E4130C57BB00A48611 /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* wistleDog_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88F00FBD130D8CB8007D2BBA /* Default.png */,
+				888D14C4130B27E600E6EDAA /* videos */,
+				888D1457130B1F5B00E6EDAA /* media */,
+				888954DC130B1D9F004CF511 /* icon.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* wistleDog-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				888D149D130B254E00E6EDAA /* libsqlite3.dylib */,
+				888D149F130B255500E6EDAA /* CFNetwork.framework */,
+				888D14BA130B277C00E6EDAA /* CoreMedia.framework */,
+				888D1502130B290800E6EDAA /* MediaPlayer.framework */,
+				88E008C3130C608900A48611 /* AudioToolbox.framework */,
+				88F00E41130CA5C2007D2BBA /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		888D1457130B1F5B00E6EDAA /* media */ = {
+			isa = PBXGroup;
+			children = (
+				888D1458130B1F5B00E6EDAA /* bg.png */,
+			);
+			name = media;
+			path = ../media;
+			sourceTree = SOURCE_ROOT;
+		};
+		888D1489130B24B500E6EDAA /* AnalylicsLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				88E0081E130C5A1A00A48611 /* libGoogleAnalytics.a */,
+				888D148A130B24B500E6EDAA /* GANTracker.h */,
+			);
+			name = AnalylicsLibrary;
+			path = ../AnalylicsLibrary;
+			sourceTree = SOURCE_ROOT;
+		};
+		888D148D130B24C600E6EDAA /* main */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* wistleDogAppDelegate.h */,
+				1D3623250D0F684500981E51 /* wistleDogAppDelegate.m */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		888D14C4130B27E600E6EDAA /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				888D14C5130B27E600E6EDAA /* v04.m4v */,
+				888D14C6130B27E600E6EDAA /* v07.m4v */,
+				888D14C7130B27E600E6EDAA /* v09.m4v */,
+				888D14C8130B27E600E6EDAA /* v10.m4v */,
+				888D14C9130B27E600E6EDAA /* v12.m4v */,
+				888D14CA130B27E600E6EDAA /* v13.m4v */,
+				888D14CB130B27E600E6EDAA /* v15.m4v */,
+				888D14CC130B27E600E6EDAA /* v21.m4v */,
+				888D14CD130B27E600E6EDAA /* v23.m4v */,
+				888D14CE130B27E600E6EDAA /* v25.m4v */,
+			);
+			name = videos;
+			path = ../../videos;
+			sourceTree = SOURCE_ROOT;
+		};
+		888D150F130B296200E6EDAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				888D145A130B1F7700E6EDAA /* MSWhistleMain.h */,
+				888D145B130B1F7700E6EDAA /* MSWhistleMain.mm */,
+				888D145C130B1F7700E6EDAA /* MSWhistleMain.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		88E007E4130C57BB00A48611 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				88E007E5130C57BC00A48611 /* MainWindow.xib */,
+				88E007E6130C57BC00A48611 /* MSWhistleMain.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		88E0088C130C607500A48611 /* soundManager */ = {
+			isa = PBXGroup;
+			children = (
+				88E0088D130C607500A48611 /* aurio_helper.cpp */,
+				88E0088E130C607500A48611 /* aurio_helper.h */,
+				88E0088F130C607500A48611 /* Classes */,
+				88E00890130C607500A48611 /* fft */,
+				88E00895130C607500A48611 /* FFTBufferManager.cpp */,
+				88E00896130C607500A48611 /* FFTBufferManager.h */,
+				88E00897130C607500A48611 /* iPublicUtility */,
+				88E0089F130C607500A48611 /* MSSoundManager.cpp */,
+				88E008A0130C607500A48611 /* MSSoundManager.h */,
+				88E008A1130C607500A48611 /* Recorder.mm */,
+				88E008A2130C607500A48611 /* Recorder.h */,
+			);
+			name = soundManager;
+			path = ../soundManager;
+			sourceTree = SOURCE_ROOT;
+		};
+		88E0088F130C607500A48611 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		88E00890130C607500A48611 /* fft */ = {
+			isa = PBXGroup;
+			children = (
+				88E00891130C607500A48611 /* rad2fft.c */,
+				88E00892130C607500A48611 /* rad2fft.h */,
+				88E00893130C607500A48611 /* SpectrumAnalysis.cpp */,
+				88E00894130C607500A48611 /* SpectrumAnalysis.h */,
+			);
+			path = fft;
+			sourceTree = "<group>";
+		};
+		88E00897130C607500A48611 /* iPublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				88E00898130C607500A48611 /* CADebugMacros.cpp */,
+				88E00899130C607500A48611 /* CADebugMacros.h */,
+				88E0089A130C607500A48611 /* CAMath.h */,
+				88E0089B130C607500A48611 /* CAStreamBasicDescription.cpp */,
+				88E0089C130C607500A48611 /* CAStreamBasicDescription.h */,
+				88E0089D130C607500A48611 /* CAXException.cpp */,
+				88E0089E130C607500A48611 /* CAXException.h */,
+			);
+			path = iPublicUtility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* wistleDog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "wistleDog" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wistleDog;
+			productName = wistleDog;
+			productReference = 1D6058910D05DD3D006BFB54 /* wistleDog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88E007C1130C57BB00A48611 /* wistleDog-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E007DE130C57BB00A48611 /* Build configuration list for PBXNativeTarget "wistleDog-iPad" */;
+			buildPhases = (
+				88E007C2130C57BB00A48611 /* Resources */,
+				88E007D1130C57BB00A48611 /* Sources */,
+				88E007D5130C57BB00A48611 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wistleDog-iPad";
+			productName = wistleDog;
+			productReference = 88E007E2130C57BB00A48611 /* wistleDog-Upgraded.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "wistleDog" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* wistleDog */,
+				88E007C1130C57BB00A48611 /* wistleDog-iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				888954DD130B1D9F004CF511 /* icon.png in Resources */,
+				888D1459130B1F5B00E6EDAA /* bg.png in Resources */,
+				888D145E130B1F7700E6EDAA /* MSWhistleMain.xib in Resources */,
+				888D14CF130B27E600E6EDAA /* v04.m4v in Resources */,
+				888D14D0130B27E600E6EDAA /* v07.m4v in Resources */,
+				888D14D1130B27E600E6EDAA /* v09.m4v in Resources */,
+				888D14D2130B27E600E6EDAA /* v10.m4v in Resources */,
+				888D14D3130B27E600E6EDAA /* v12.m4v in Resources */,
+				888D14D4130B27E600E6EDAA /* v13.m4v in Resources */,
+				888D14D5130B27E600E6EDAA /* v15.m4v in Resources */,
+				888D14D6130B27E600E6EDAA /* v21.m4v in Resources */,
+				888D14D7130B27E600E6EDAA /* v23.m4v in Resources */,
+				888D14D8130B27E600E6EDAA /* v25.m4v in Resources */,
+				88F00FBE130D8CB8007D2BBA /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E007C2130C57BB00A48611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E007C4130C57BB00A48611 /* icon.png in Resources */,
+				88E007C5130C57BB00A48611 /* bg.png in Resources */,
+				88E007C7130C57BB00A48611 /* v04.m4v in Resources */,
+				88E007C8130C57BB00A48611 /* v07.m4v in Resources */,
+				88E007C9130C57BB00A48611 /* v09.m4v in Resources */,
+				88E007CA130C57BB00A48611 /* v10.m4v in Resources */,
+				88E007CB130C57BB00A48611 /* v12.m4v in Resources */,
+				88E007CC130C57BB00A48611 /* v13.m4v in Resources */,
+				88E007CD130C57BB00A48611 /* v15.m4v in Resources */,
+				88E007CE130C57BB00A48611 /* v21.m4v in Resources */,
+				88E007CF130C57BB00A48611 /* v23.m4v in Resources */,
+				88E007D0130C57BB00A48611 /* v25.m4v in Resources */,
+				88E007E7130C57BC00A48611 /* MainWindow.xib in Resources */,
+				88E007E8130C57BC00A48611 /* MSWhistleMain.xib in Resources */,
+				88F00FBF130D8CB8007D2BBA /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* wistleDogAppDelegate.m in Sources */,
+				888D145D130B1F7700E6EDAA /* MSWhistleMain.mm in Sources */,
+				88E008A3130C607500A48611 /* aurio_helper.cpp in Sources */,
+				88E008A4130C607500A48611 /* rad2fft.c in Sources */,
+				88E008A5130C607500A48611 /* SpectrumAnalysis.cpp in Sources */,
+				88E008A6130C607500A48611 /* FFTBufferManager.cpp in Sources */,
+				88E008A7130C607500A48611 /* CADebugMacros.cpp in Sources */,
+				88E008A8130C607500A48611 /* CAStreamBasicDescription.cpp in Sources */,
+				88E008A9130C607500A48611 /* CAXException.cpp in Sources */,
+				88E008AA130C607500A48611 /* MSSoundManager.cpp in Sources */,
+				88E008AB130C607500A48611 /* Recorder.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E007D1130C57BB00A48611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E007D2130C57BB00A48611 /* main.m in Sources */,
+				88E007D3130C57BB00A48611 /* wistleDogAppDelegate.m in Sources */,
+				88E007D4130C57BB00A48611 /* MSWhistleMain.mm in Sources */,
+				88E008AC130C607500A48611 /* aurio_helper.cpp in Sources */,
+				88E008AD130C607500A48611 /* rad2fft.c in Sources */,
+				88E008AE130C607500A48611 /* SpectrumAnalysis.cpp in Sources */,
+				88E008AF130C607500A48611 /* FFTBufferManager.cpp in Sources */,
+				88E008B0130C607500A48611 /* CADebugMacros.cpp in Sources */,
+				88E008B1130C607500A48611 /* CAStreamBasicDescription.cpp in Sources */,
+				88E008B2130C607500A48611 /* CAXException.cpp in Sources */,
+				88E008B3130C607500A48611 /* MSSoundManager.cpp in Sources */,
+				88E008B4130C607500A48611 /* Recorder.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = wistleDog_Prefix.pch;
+				INFOPLIST_FILE = "wistleDog-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../AnalylicsLibrary\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = wistleDog;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = wistleDog_Prefix.pch;
+				INFOPLIST_FILE = "wistleDog-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../AnalylicsLibrary\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = wistleDog;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		888D15FA130B3DE300E6EDAA /* ADHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = ADHoc;
+		};
+		888D15FB130B3DE300E6EDAA /* ADHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moises Swiczar";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moises Swiczar";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = wistleDog_Prefix.pch;
+				INFOPLIST_FILE = "wistleDog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../AnalylicsLibrary\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = wistleDog;
+				PROVISIONING_PROFILE = "F889DA6B-A163-4F73-97A2-D75B73E3077D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F889DA6B-A163-4F73-97A2-D75B73E3077D";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ADHoc;
+		};
+		88E007DF130C57BB00A48611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = wistleDog_Prefix.pch;
+				INFOPLIST_FILE = "wistleDog-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/../AnalylicsLibrary\\\"",
+					"\"$(SRCROOT)/../AnalylicsLibrary\"",
+				);
+				PRODUCT_NAME = "wistleDog-Upgraded";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		88E007E0130C57BB00A48611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = wistleDog_Prefix.pch;
+				INFOPLIST_FILE = "wistleDog-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/../AnalylicsLibrary\\\"",
+					"\"$(SRCROOT)/../AnalylicsLibrary\"",
+				);
+				PRODUCT_NAME = "wistleDog-Upgraded";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88E007E1130C57BB00A48611 /* ADHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moises Swiczar";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moises Swiczar";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = wistleDog_Prefix.pch;
+				INFOPLIST_FILE = "wistleDog-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/../AnalylicsLibrary\\\"",
+					"\"$(SRCROOT)/../AnalylicsLibrary\"",
+				);
+				PRODUCT_NAME = "wistleDog-Upgraded";
+				PROVISIONING_PROFILE = "5A47BA98-667F-4C02-9F84-9F32BEEC09CF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5A47BA98-667F-4C02-9F84-9F32BEEC09CF";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ADHoc;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "wistleDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				888D15FB130B3DE300E6EDAA /* ADHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88E007DE130C57BB00A48611 /* Build configuration list for PBXNativeTarget "wistleDog-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E007DF130C57BB00A48611 /* Debug */,
+				88E007E0130C57BB00A48611 /* Release */,
+				88E007E1130C57BB00A48611 /* ADHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "wistleDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				888D15FA130B3DE300E6EDAA /* ADHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
